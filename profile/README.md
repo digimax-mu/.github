@@ -24,7 +24,7 @@ Digimax Ltd takes an idea from screen to paper, photo or solid object: print, ph
 
 **Museum show control, Iziko Museums of South Africa.** Six BrightSign video players, five projectors and sixteen audio tracks run one synchronised show that starts and stops itself every day. We wrote the Q-SYS Lua controllers that run on the audio core: countdown timers for the daily start and stop, a sync receiver that keeps audio locked to the video's loop marker, a master that broadcasts start and stop to every player, and a gate that keeps projectors in step with the show. The manual Play and Stop buttons stay as an override.
 
-<img src="img/qsys-sync.jpg" width="32%" alt="Q-SYS Lua components: sync receiver, bridge master and startup timer"> <img src="img/qsys-timers.jpg" width="32%" alt="Q-SYS Lua components: shutdown timer, master player and start launcher"> <img src="img/qsys-player.jpg" width="32%" alt="Q-SYS Lua bridge component for one media player">
+<img src="img/qsys-sync.jpg" height="340" alt="Q-SYS Lua components: sync receiver, bridge master and startup timer"> <img src="img/qsys-timers.jpg" height="340" alt="Q-SYS Lua components: shutdown timer, master player and start launcher"> <img src="img/qsys-player.jpg" height="340" alt="Q-SYS Lua bridge component for one media player">
 
 Each controller documents itself in its header, so the operator can change the show without a developer:
 
