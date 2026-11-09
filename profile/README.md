@@ -44,9 +44,9 @@ Each controller documents itself in its header, so the operator can change the s
 ]]
 ```
 
-<img src="img/wall-dashboard.jpg" alt="Wall app: live thumbnails from each media player with uptime, playhead and one-click repair">
+<img src="img/wall-dashboard.jpg" alt="BrightSign Wall: live thumbnails from each media player with uptime, playhead and one-click repair">
 
-The Wall app shows a live thumbnail from every player, its uptime and playhead, and one-click repair. Server upstairs, players downstairs: no walking.
+The BrightSign Wall app shows a live thumbnail from every player, its uptime and playhead, and one-click repair. Server upstairs, players downstairs: no walking.
 
 ### Open source
 
