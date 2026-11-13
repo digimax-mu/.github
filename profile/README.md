@@ -50,7 +50,15 @@ The BrightSign Wall app shows a live thumbnail from every player, its uptime and
 
 <img src="img/ovs.jpg" alt="OVS with one picture cut into five named splits, each outlined and labelled over the preview">
 
-**OVS, Open Video Split: one film across many projectors.** A Mac player for permanent projection shows. It plays a single very wide film, cuts it into named splits and hands each split to the mapping software over NDI or Syphon, so one file feeds every projector. A second computer can watch the layout in a browser. It loops without losing a frame, takes OSC commands, reports its own health on a status page, starts by itself at login and restarts if it stops. In development: on a MacBook Pro it plays a 15720 x 2812 ProRes film at 30 frames a second and sends five slices with none dropped. Not yet running in a venue.
+**OVS, Open Video Split: one film across many projectors.** A Mac player for permanent projection shows. It plays a single very wide film, cuts it into named splits and hands each split to the mapping software over NDI or Syphon, so one file feeds every projector. A second computer can watch the layout in a browser. It plays the film's sound to a chosen device, on a player of its own so that a fault on the sound side cannot disturb the picture. It loops without losing a frame, takes OSC commands, reports its own health on a status page, starts by itself at login and restarts if it stops. In development: on a MacBook Pro it plays a 15720 x 2812 ProRes film at 30 frames a second and sends five slices with none dropped. Not yet running in a venue.
+
+<img src="img/om.jpg" alt="OpenMapper's 3D preview: a cylindrical room with a numbered test film on its wall, five projectors at the centre and the edges of their beams">
+
+**OM, OpenMapper: the room in numbers before the projectors are switched on.** A Mac mapping and blending tool that follows OVS. The room and its projectors are described in measurements; OM works out what each projector must show and how neighbours share the light where they overlap, and draws the room in 3D with the film on its wall as the projectors would deliver it. It says in plain words where a rig does not reach, how sharp the picture arrives and how uneven the light is, so a mounting plan can be corrected at a desk. In development: the arithmetic, the report and the 3D preview exist. It does not yet drive a projector.
+
+<img src="img/rmai.jpg" alt="The RMAI panel: six channel strips with level meters and faders, a master strip, the film's progress and the state of the audio interface">
+
+**RMAI: a front panel for a rack audio interface that has none.** A Mac panel for the sound of a projection show. OVS plays the film's sound in step with the picture; RMAI shows a meter for each channel sent and each input heard, the film's progress and the state of the interface, and sets the levels from the screen or a MIDI knob box. It starts locked, so a stray touch changes nothing. In development: it has run against OVS with a six-channel test film. No sound has yet been played through a real interface.
 
 ### Open source
 
