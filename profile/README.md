@@ -48,9 +48,9 @@ Each controller documents itself in its header, so the operator can change the s
 
 The BrightSign Wall app shows a live thumbnail from every player, its uptime and playhead, and one-click repair. Server upstairs, players downstairs: no walking.
 
-<img src="img/ovs.jpg" alt="OVS showing one of its built-in moving test patterns: coloured rings in the preview window">
+<img src="img/ovs.jpg" alt="OVS with one picture cut into five named splits, each outlined and labelled over the preview">
 
-**OVS, Open Video Split: one film across many projectors.** A Mac player for permanent projection shows. It plays a single very wide film, cuts it into slices and hands each slice to the mapping software over NDI or Syphon, so one file feeds every projector. It loops without losing a frame, takes OSC commands, reports its own health on a status page, starts by itself at login and restarts if it stops. In development: on a MacBook Pro it plays a 15720 x 2812 ProRes film at 30 frames a second and sends five slices with none dropped. Not yet running in a venue.
+**OVS, Open Video Split: one film across many projectors.** A Mac player for permanent projection shows. It plays a single very wide film, cuts it into named splits and hands each split to the mapping software over NDI or Syphon, so one file feeds every projector. A second computer can watch the layout in a browser. It loops without losing a frame, takes OSC commands, reports its own health on a status page, starts by itself at login and restarts if it stops. In development: on a MacBook Pro it plays a 15720 x 2812 ProRes film at 30 frames a second and sends five slices with none dropped. Not yet running in a venue.
 
 ### Open source
 
